@@ -2,11 +2,13 @@
 <html lang="id">
 <head>
     <meta name="robots" content="noindex, nofollow">
-    <!-- Pratinjau statis, dibuat 2026-11-09 16:39 -->
+    <!-- Pratinjau statis, dibuat 2026-11-09 17:02 -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <title>Rumedia — Fitting Your Dream Space</title>
     <meta name="description" content="Rumedia, spesialis bangun &amp; renovasi dengan sistem Fitting. Pas di hati, pas di budget, tepat jadwal. Tanpa biaya siluman.">
+    <link rel="icon" href="assets/img/favicon-180.png">
+    <link rel="apple-touch-icon" href="assets/img/favicon-180.png">
     <script src="https://cdn.tailwindcss.com/3.4.17"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,8 +20,8 @@
             theme: {
                 extend: {
                     fontFamily: {
-                        sans: ['Plus Jakarta Sans', 'sans-serif'],
-                        display: ['Plus Jakarta Sans', 'sans-serif'],
+                        sans: ['Telegraf', 'Plus Jakarta Sans', 'sans-serif'],
+                        display: ['Telegraf', 'Plus Jakarta Sans', 'sans-serif'],
                     },
                     colors: {
                         brand: {
@@ -88,7 +90,7 @@
         .page-content { animation: fade .35s ease; }
         @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
         .article-body p { margin-bottom: 1.1rem; line-height: 1.85; }
-        .article-body h3 { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 1.35rem; letter-spacing: -.01em; margin: 2rem 0 .75rem; color:#2A1C14; }
+        .article-body h3 { font-family: 'Telegraf', 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 1.35rem; letter-spacing: -.01em; margin: 2rem 0 .75rem; color:#2A1C14; }
         .article-body ul { list-style: disc; padding-left: 1.25rem; margin-bottom: 1.1rem; }
         .article-body li { margin-bottom: .4rem; line-height: 1.75; }
         @media (prefers-reduced-motion: reduce) {
@@ -134,6 +136,29 @@
         ol:hover > .step-card.is-on:not(:hover) .step-ic { background: #F3EAE0; color: #6B4430; }
         ol:hover > .step-card.is-on:not(:hover) .step-num { -webkit-text-stroke-color: #D9C3AE; }
         ol:hover > .step-card.is-on:not(:hover) .step-desc { color: #6F6157; }
+        /* ===== Font Telegraf (file lisensi ditaruh di assets/fonts/) =====
+           Bila file belum ada, browser otomatis memakai Plus Jakarta Sans. */
+        @font-face { font-family: 'Telegraf'; font-weight: 200; font-style: normal; font-display: swap;
+            src: url('assets/fonts/Telegraf-UltraLight.woff2') format('woff2'), url('assets/fonts/Telegraf-UltraLight.woff') format('woff'), url('assets/fonts/Telegraf-UltraLight.otf') format('opentype'), url('assets/fonts/Telegraf-UltraLight.ttf') format('truetype'); }
+        @font-face { font-family: 'Telegraf'; font-weight: 300; font-style: normal; font-display: swap;
+            src: url('assets/fonts/Telegraf-Light.woff2') format('woff2'), url('assets/fonts/Telegraf-Light.woff') format('woff'), url('assets/fonts/Telegraf-Light.otf') format('opentype'), url('assets/fonts/Telegraf-Light.ttf') format('truetype'); }
+        @font-face { font-family: 'Telegraf'; font-weight: 400; font-style: normal; font-display: swap;
+            src: url('assets/fonts/Telegraf-Regular.woff2') format('woff2'), url('assets/fonts/Telegraf-Regular.woff') format('woff'), url('assets/fonts/Telegraf-Regular.otf') format('opentype'), url('assets/fonts/Telegraf-Regular.ttf') format('truetype'); }
+        @font-face { font-family: 'Telegraf'; font-weight: 500; font-style: normal; font-display: swap;
+            src: url('assets/fonts/Telegraf-Medium.woff2') format('woff2'), url('assets/fonts/Telegraf-Medium.woff') format('woff'), url('assets/fonts/Telegraf-Medium.otf') format('opentype'), url('assets/fonts/Telegraf-Medium.ttf') format('truetype'); }
+        @font-face { font-family: 'Telegraf'; font-weight: 700; font-style: normal; font-display: swap;
+            src: url('assets/fonts/Telegraf-Bold.woff2') format('woff2'), url('assets/fonts/Telegraf-Bold.woff') format('woff'), url('assets/fonts/Telegraf-Bold.otf') format('opentype'), url('assets/fonts/Telegraf-Bold.ttf') format('truetype'); }
+        @font-face { font-family: 'Telegraf'; font-weight: 800; font-style: normal; font-display: swap;
+            src: url('assets/fonts/Telegraf-UltraBold.woff2') format('woff2'), url('assets/fonts/Telegraf-UltraBold.woff') format('woff'), url('assets/fonts/Telegraf-UltraBold.otf') format('opentype'), url('assets/fonts/Telegraf-UltraBold.ttf') format('truetype'); }
+        @font-face { font-family: 'Telegraf'; font-weight: 900; font-style: normal; font-display: swap;
+            src: url('assets/fonts/Telegraf-Black.woff2') format('woff2'), url('assets/fonts/Telegraf-Black.woff') format('woff'), url('assets/fonts/Telegraf-Black.otf') format('opentype'), url('assets/fonts/Telegraf-Black.ttf') format('truetype'); }
+
+        /* ===== Teks gold (gradasi seperti materi promosi Rumedia) ===== */
+        .text-gold {
+            background-image: linear-gradient(180deg, #FFEBA8 0%, #F7D15E 42%, #E7AE3C 100%);
+            -webkit-background-clip: text; background-clip: text; color: transparent;
+            -webkit-box-decoration-break: clone; box-decoration-break: clone;
+        }
     </style>
 </head>
 <body class="bg-brand-cream text-brand-dark font-sans overflow-x-hidden selection:bg-brand-yellow selection:text-brand-dark" style="background:#F6F1EA">
@@ -144,7 +169,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20 gap-6">
                 <a href="#home" class="flex items-center gap-3 shrink-0">
-                    <span class="w-9 h-9 bg-brand-blue flex items-center justify-center text-brand-yellow font-display font-bold text-lg rounded-xl">R</span>
+                    <img src="assets/img/logo-rumedia-dark.png" alt="" class="w-9 h-9 object-contain" width="36" height="36">
                     <span class="text-xl font-semibold tracking-tight text-brand-dark">Rumedia<span class="hidden sm:inline xl:hidden text-brand-slate font-normal text-sm ml-2 whitespace-nowrap">Fitting Your Dream Space</span></span>
                 </a>
 
@@ -201,7 +226,7 @@
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative w-full py-16 sm:py-20">
                     <div class="max-w-2xl">
                         <p class="eyebrow text-brand-yellow">Fitting Your Dream Space</p>
-                        <h1 class="font-display font-extrabold tracking-[-0.02em] text-[2.4rem] sm:text-5xl lg:text-6xl text-white leading-[1.05] mt-5">Bangun rumah tanpa menebak.</h1>
+                        <h1 class="font-display font-extrabold tracking-[-0.02em] text-[2.4rem] sm:text-5xl lg:text-6xl text-white leading-[1.05] mt-5"><span class="text-gold">Bangun rumah tanpa menebak.</span></h1>
                         <p class="text-base sm:text-lg text-stone-200/90 mt-6 leading-relaxed max-w-xl">Spesialis bangun & renovasi dengan sistem <em class="not-italic text-brand-yellow">Fitting</em>. Pas di hati, pas di budget, tepat jadwal. Tanpa biaya siluman.</p>
 
                         <div class="flex flex-col sm:flex-row gap-3 mt-10">
@@ -279,7 +304,7 @@
                     <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end mb-10">
                         <div class="lg:col-span-7">
                             <p class="eyebrow text-brand-yellow">Design to Fit, Build to Last</p>
-                            <h2 class="font-display font-extrabold tracking-[-0.02em] text-3xl sm:text-4xl mt-4 leading-[1.12]">Lelah dengan drama kontraktor? Ini bedanya sistem Fitting.</h2>
+                            <h2 class="font-display font-extrabold tracking-[-0.02em] text-3xl sm:text-4xl mt-4 leading-[1.12]"><span class="text-gold">Lelah dengan drama kontraktor? Ini bedanya sistem Fitting.</span></h2>
                         </div>
                         <div class="lg:col-span-5 lg:text-right">
                             <button onclick="scrollToConsultation()" class="px-7 py-4 bg-brand-yellow hover:bg-brand-amber text-brand-dark font-semibold rounded-full btn">Mulai Fitting Sekarang <i class="arr fa-solid fa-arrow-right text-sm ml-2"></i></button>
@@ -366,7 +391,7 @@
                     <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12">
                         <div class="max-w-2xl">
                             <p class="eyebrow text-brand-yellow">Proyek Pilihan</p>
-                            <h2 class="font-display font-extrabold tracking-[-0.025em] text-4xl sm:text-5xl mt-4 leading-[1.05]">Hasil fitting yang pas dengan ukuran dan kebiasaan penghuninya</h2>
+                            <h2 class="font-display font-extrabold tracking-[-0.025em] text-4xl sm:text-5xl mt-4 leading-[1.05]"><span class="text-gold">Hasil fitting yang pas dengan ukuran dan kebiasaan penghuninya</span></h2>
                         </div>
                         <a href="#portfolio" class="shrink-0 self-start md:self-auto pl-6 pr-2 py-2 rounded-full bg-white/10 hover:bg-brand-yellow hover:text-brand-dark border border-white/15 hover:border-brand-yellow text-sm font-semibold inline-flex items-center gap-3 btn">
                             Semua proyek <span class="arr w-8 h-8 rounded-full bg-brand-yellow text-brand-dark inline-flex items-center justify-center"><i class="fa-solid fa-arrow-right text-xs"></i></span>
@@ -461,7 +486,7 @@
                     <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
                         <div class="lg:col-span-5 text-white">
                             <p class="eyebrow text-brand-yellow">Initial Fitting Gratis</p>
-                            <h2 class="font-display font-extrabold tracking-[-0.025em] text-4xl sm:text-5xl mt-4 leading-[1.05]">Siap fitting ruang impian Anda?</h2>
+                            <h2 class="font-display font-extrabold tracking-[-0.025em] text-4xl sm:text-5xl mt-4 leading-[1.05]"><span class="text-gold">Siap fitting ruang impian Anda?</span></h2>
                             <p class="text-stone-300 mt-5 text-lg leading-relaxed">Mulai langkah pertama dengan diskusi yang transparan. Setelah formulir dikirim, data Anda langsung terbuka di WhatsApp tim kami. Slot Initial Fitting gratis terbatas setiap minggunya.</p>
                             <ul class="mt-9 space-y-4">
                                                                 <li class="flex items-center gap-4">
@@ -733,7 +758,7 @@
                     </div>
                     <div class="mt-16 p-8 sm:p-10 bg-brand-blue wood-sheen text-white rounded-[28px] flex flex-col md:flex-row md:items-center justify-between gap-6">
                         <div>
-                            <p class="font-display text-2xl font-medium tracking-tight">Mau hasil seperti ini di rumah Anda?</p>
+                            <p class="font-display text-2xl font-medium tracking-tight"><span class="text-gold">Mau hasil seperti ini di rumah Anda?</span></p>
                             <p class="text-stone-200/80 mt-2">Ceritakan kebutuhan Anda, tim kami bantu hitung estimasi dan desainnya.</p>
                         </div>
                         <button type="button" id="pd-cta" class="shrink-0 px-7 py-4 bg-brand-yellow hover:bg-brand-amber text-brand-dark font-semibold rounded-full btn inline-flex items-center gap-2"><i class="fa-brands fa-whatsapp text-lg"></i> Konsultasi proyek serupa</button>
@@ -848,7 +873,7 @@
                                 <span class="flex items-center gap-1"><i class="fa-solid fa-signal"></i><i class="fa-solid fa-wifi"></i><span class="dv-batt"></span></span>
                             </div>
                             <div class="px-4 pt-1 pb-2.5 flex items-center gap-2 text-[11px] font-semibold text-brand-dark">
-                                <span class="w-6 h-6 rounded-lg bg-brand-blue text-brand-yellow flex items-center justify-center text-[10px] shadow-sm">R</span>
+                                <span class="w-6 h-6 rounded-lg bg-brand-blue flex items-center justify-center shadow-sm"><img src="assets/img/logo-rumedia-light.png" alt="" class="w-4 h-4 object-contain"></span>
                                 Rumedia Proyek
                                 <span class="ml-auto w-6 h-6 rounded-full bg-white border border-brand-sand flex items-center justify-center text-[9px] text-brand-slate"><i class="fa-regular fa-bell"></i></span>
                             </div>
@@ -932,7 +957,7 @@
                                 <span class="flex items-center gap-1"><i class="fa-solid fa-signal"></i><i class="fa-solid fa-wifi"></i><span class="dv-batt"></span></span>
                             </div>
                             <div class="px-4 pt-1 pb-2.5 flex items-center gap-2 text-[11px] font-semibold text-brand-dark">
-                                <span class="w-6 h-6 rounded-lg bg-brand-blue text-brand-yellow flex items-center justify-center text-[10px] shadow-sm">R</span>
+                                <span class="w-6 h-6 rounded-lg bg-brand-blue flex items-center justify-center shadow-sm"><img src="assets/img/logo-rumedia-light.png" alt="" class="w-4 h-4 object-contain"></span>
                                 Rumedia Proyek
                                 <span class="ml-auto w-6 h-6 rounded-full bg-white border border-brand-sand flex items-center justify-center text-[9px] text-brand-slate"><i class="fa-regular fa-bell"></i></span>
                             </div>
@@ -1032,7 +1057,7 @@
                                 <span class="flex items-center gap-1"><i class="fa-solid fa-signal"></i><i class="fa-solid fa-wifi"></i><span class="dv-batt"></span></span>
                             </div>
                             <div class="px-4 pt-1 pb-2.5 flex items-center gap-2 text-[11px] font-semibold text-brand-dark">
-                                <span class="w-6 h-6 rounded-lg bg-brand-blue text-brand-yellow flex items-center justify-center text-[10px] shadow-sm">R</span>
+                                <span class="w-6 h-6 rounded-lg bg-brand-blue flex items-center justify-center shadow-sm"><img src="assets/img/logo-rumedia-light.png" alt="" class="w-4 h-4 object-contain"></span>
                                 Rumedia Proyek
                                 <span class="ml-auto w-6 h-6 rounded-full bg-white border border-brand-sand flex items-center justify-center text-[9px] text-brand-slate"><i class="fa-regular fa-bell"></i></span>
                             </div>
@@ -1107,7 +1132,7 @@
                                 <span class="flex items-center gap-1"><i class="fa-solid fa-signal"></i><i class="fa-solid fa-wifi"></i><span class="dv-batt"></span></span>
                             </div>
                             <div class="px-4 pt-1 pb-2.5 flex items-center gap-2 text-[11px] font-semibold text-brand-dark">
-                                <span class="w-6 h-6 rounded-lg bg-brand-blue text-brand-yellow flex items-center justify-center text-[10px] shadow-sm">R</span>
+                                <span class="w-6 h-6 rounded-lg bg-brand-blue flex items-center justify-center shadow-sm"><img src="assets/img/logo-rumedia-light.png" alt="" class="w-4 h-4 object-contain"></span>
                                 Rumedia Proyek
                                 <span class="ml-auto w-6 h-6 rounded-full bg-white border border-brand-sand flex items-center justify-center text-[9px] text-brand-slate"><i class="fa-regular fa-bell"></i></span>
                             </div>
@@ -1193,7 +1218,7 @@
                                 <span class="flex items-center gap-1"><i class="fa-solid fa-signal"></i><i class="fa-solid fa-wifi"></i><span class="dv-batt"></span></span>
                             </div>
                             <div class="px-4 pt-1 pb-2.5 flex items-center gap-2 text-[11px] font-semibold text-brand-dark">
-                                <span class="w-6 h-6 rounded-lg bg-brand-blue text-brand-yellow flex items-center justify-center text-[10px] shadow-sm">R</span>
+                                <span class="w-6 h-6 rounded-lg bg-brand-blue flex items-center justify-center shadow-sm"><img src="assets/img/logo-rumedia-light.png" alt="" class="w-4 h-4 object-contain"></span>
                                 Rumedia Proyek
                                 <span class="ml-auto w-6 h-6 rounded-full bg-white border border-brand-sand flex items-center justify-center text-[9px] text-brand-slate"><i class="fa-regular fa-bell"></i></span>
                             </div>
@@ -1257,7 +1282,7 @@
                 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="p-8 sm:p-12 bg-brand-blue wood-sheen text-white rounded-[28px] flex flex-col md:flex-row md:items-center justify-between gap-6">
                         <div>
-                            <p class="font-display text-2xl sm:text-3xl font-medium tracking-tight">Ingin proyek Anda dipantau seperti ini?</p>
+                            <p class="font-display text-2xl sm:text-3xl font-medium tracking-tight"><span class="text-gold">Ingin proyek Anda dipantau seperti ini?</span></p>
                             <p class="text-stone-200/80 mt-2 text-sm">Tampilan di halaman ini adalah ilustrasi dengan data contoh.</p>
                         </div>
                         <button onclick="scrollToConsultation()" class="shrink-0 px-7 py-4 bg-brand-yellow hover:bg-brand-amber text-brand-dark font-semibold rounded-full btn">Mulai Initial Fitting <i class="arr fa-solid fa-arrow-right text-sm ml-2"></i></button>
@@ -1379,7 +1404,7 @@
                         </div>
                         <div class="lg:col-span-2 bg-brand-blue wood-sheen text-white p-6 sm:p-10 flex flex-col">
                             <p class="text-[11px] uppercase tracking-eyebrow text-stone-300">Estimasi biaya</p>
-                            <p id="calc-result" class="font-display font-bold tracking-tight text-3xl sm:text-4xl mt-3 leading-tight">Rp 0</p>
+                            <p id="calc-result" class="font-display font-extrabold tracking-tight text-3xl sm:text-4xl mt-3 leading-tight text-gold">Rp 0</p>
                             <p class="text-sm text-stone-200/80 mt-2">Sudah termasuk desain 3D, produksi, pengiriman, dan instalasi.</p>
                             <ul id="calc-breakdown" class="mt-6 pt-6 border-t border-white/20 text-sm space-y-2 text-stone-100"></ul>
                             <div class="mt-auto pt-8">
@@ -1796,7 +1821,7 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
                 <div>
                     <div class="flex items-center gap-3">
-                        <span class="w-8 h-8 bg-brand-blue flex items-center justify-center text-brand-yellow font-display font-bold rounded-lg">R</span>
+                        <img src="assets/img/logo-rumedia-light.png" alt="" class="w-9 h-9 object-contain" width="36" height="36">
                         <span class="text-lg font-semibold">Rumedia</span>
                     </div>
                     <p class="text-stone-400 text-sm leading-relaxed mt-4">Spesialis bangun &amp; renovasi dengan sistem Fitting. Design to fit, build to last.</p>
